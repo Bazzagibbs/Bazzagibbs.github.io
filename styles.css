@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+h1{
+    font-weight: normal;
+    color: #FF0000;
+    font-size: 20px;
+    margin: 0;
+}
+p {
+    font-family: Times, serif;
+    background-color: #FFFF00;
+    padding:30px 100px 0px 50px;
+}
+
+/* link states 
+    Standard
+    currently hovering over
+    currently clicking
+    previously visited
+
+    to open in new tab, after a href, target="_blank"
+    ORDER MATTERS: subsequent styles overwrite.
+*/
+a{
+    background-color: #7f02a5;
+    color: #ffffff;
+    display: block;
+    width:100px;
+    padding:10px 30px 10px 30px;
+    text-align: center;
+    margin:30px;
+    text-decoration: none;
+}
+a:link{
+
+}
+a:visited{
+    background-color: #310041;
+}
+a:hover{
+    background-color: #ff70f3;
+    color: #000000;
+    text-transform: uppercase;
+}
+a:active{
+    background-color: #9e93ff;
+}
