@@ -1,0 +1,46 @@
+header{
+    height: 150px;
+    background-color: #585858;
+    background-image: url(images/bgimage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+}
+nav{
+    height:40px;
+    background-color: #c4ff0e;
+    margin-bottom: 20px;
+}
+section{
+    background-color: lightcyan;
+    margin: 20px 10px 20px 10px;
+}
+
+.mainContent{
+    background-color: lightpink;
+    width: 70%;
+    float: left;
+    
+}
+.inner{
+    padding: 30px;
+}
+.boxes{
+    background-color: lightcoral;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+}
+aside{
+    background-color: lightskyblue;
+    float: right;
+    width: 30%;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    padding: 20px;
+    background-color: lightgreen;
+}
