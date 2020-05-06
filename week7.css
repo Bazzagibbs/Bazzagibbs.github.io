@@ -6,11 +6,40 @@ header{
     background-position: center center;
     background-size: 60%;
 }
-nav{
-    height:40px;
-    background-color: #c4ff0e;
-    margin-bottom: 20px;
+h1, h2, h3, h4, h5{
+    font-family: 'Manrope', sans-serif;
+
 }
+
+p, ul, a{
+    font-family: 'Manrope', sans-serif;
+}
+
+nav{
+
+    font-family: 'Manrope', sans-serif;
+
+    background-color: red;
+    text-align: center;
+    
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 5px 0 5px 0;
+    margin: 0 10px 0 10px;
+    width: 300px;
+    display: inline-block;
+    background-color: #c4ff0e;
+    transition: 0.1s;
+}
+nav a:hover{
+    background-color: green;
+    color: white;
+}
+
 section{
     background-color: lightcyan;
     margin: 20px 10px 20px 10px;
@@ -26,6 +55,8 @@ section{
     padding: 30px;
 }
 .boxes{
+    font-family: 'Manrope', sans-serif;
+
     background-color: lightcoral;
     float: left;
     width: 33.33%;
