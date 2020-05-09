@@ -1,92 +1,31 @@
-html{
-    overflow: hidden;
-    margin: 0;
-}
-nav{
-    padding: 20px;
-}
-
-body{
-    margin: 0;
-    font-size: 20pt;
-    font-family: sans-serif;
-
+.wrapper{
     height: 100vh;
-    perspective: 1px;
-    transform-style: preserve-3d;
     overflow-x: hidden;
-    overflow-y: scroll;
-    background-color: #9aceff;
+    overflow-y: auto;
+    perspective: 1px;
 }
 
-.content{
-    border-radius:20px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 30px;
-    width: 70%;
-    height: auto;
-    background:rgba(230, 230, 230, 0.2);
-    backdrop-filter: blur(40px);
-    z-index: 3;
-}
-
-.parallax-wrapper1{
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    box-sizing: border-box;
-    transform-style: preserve-3d;
-}
-
-.parallax-wrapper1::before{
-    content:"";
-    width: 100vw;
+.section{
+    position: relative;
     height: 100vh;
-    top: 500px;
-    left: 0;
-    background-image: url("../images/parallax.svg");
-    background-size: cover;
-    overflow: visible;
-    position: absolute;
-    z-index: -2;
-    transform:translateZ(-4px) scale(5);
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
-.parallax-wrapper2{
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    box-sizing: border-box;
-    transform-style: preserve-3d;
-}
-
-.parallax-wrapper2::before{
+.parallax::after{
     content:"";
-    width: 100vw;
-    height: 100vh;
-    top: 1000px;
-    left: 0;
-    background-image: url("../images/parallax2.svg");
-    background-size: 100% auto;
-    overflow: visible;
     position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateZ(-1px) scale(2);
+    background-size: 100%;
     z-index: -1;
-    transform:translateZ(-1.5px) scale(2.5);
 }
 
-.regular-wrapper{
-    width: 100vw;
-    height: 50vh;
-    padding-top: 10vh;
-    box-sizing: border-box;
-    z-index: 2;
-    position: relative;
-}
-
-
-
-.clearfix{
-    clear: both;
+.l1::after{
+    background-image: url("../images/parallax.svg");
 }

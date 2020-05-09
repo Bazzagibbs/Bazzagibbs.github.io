@@ -1,0 +1,117 @@
+html{
+    overflow: hidden;
+    margin: 0;
+}
+nav{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+body{
+    margin: 0;
+    font-size: 20pt;
+    font-family: sans-serif;
+
+    width: 100vw;
+    height: auto;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #c2d7ff;
+}
+
+.bounds{
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.content{
+    border-radius:5px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+    background:rgba(100, 100, 100, 0.4);
+    backdrop-filter: blur(40px);
+    z-index: 3;
+}
+
+[class*="parallax-wrapper"]{
+    width: 100vw;
+    height: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.parallax-wrapper1::after{
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top: 500px;
+    left: 0;
+    background-image: url("../images/parallax.svg");
+    background-size: cover;
+    overflow: visible;
+    position: absolute;
+    z-index: -2;
+    transform:translateZ(-4px) scale(5);
+    
+}
+
+.parallax-wrapper2::after{
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top: 750px;
+    left: 0;
+    background-image: url("../images/parallaxCloud.svg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    overflow: visible;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1.5px) scale(2.5);
+}
+
+.parallax-wrapper3::after{
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top: 1000px;
+    left: 0;
+    background-image: url("../images/parallax2.svg");
+    background-size: 100% auto;
+    overflow: visible;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-0.5px) scale(1.5);
+}
+
+.regular-wrapper{
+    width: 100vw;
+    height: auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+    z-index: 2;
+    position: relative;
+}
+
+footer{
+    padding: 0;
+}
+
+footer.content{
+    width: 100vw;
+    background-color: rgba(230, 230, 230, 0.4);
+}
+
+
+
+.clearfix{
+    clear: both;
+}
