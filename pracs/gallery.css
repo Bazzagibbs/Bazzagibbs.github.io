@@ -1,0 +1,16 @@
+.clearfix{
+    clear: both;
+}
+
+img.mq-gallery{
+    border: 10px solid #000000;
+    transition: 0.2s;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+img.mq-gallery:hover{
+    opacity: 0.5;
+}
