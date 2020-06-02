@@ -51,20 +51,21 @@ An appropriate number and type of fonts are used consistently across pages and s
 Content is original but contains no typos. Student has made a real effort to write engaging content. Any non-original content is referenced.
 
 # Checklist
-  - The filename of the home page should be called index.html
-  - All pages should link to a single separate style sheet. (Refer to chapter 4)
-  - The website should have at least 4 HTML pages
-  - Your files should be coded entirely by yourself. Don’t use existing template frameworks such as bootstrap or similar.
+  - ~~The filename of the home page should be called index.html~~
+  - ~~All pages should link to a single separate style sheet. (Refer to chapter 4)~~
+  - ~~The website should have at least 4 HTML pages~~
+  - ~~Your files should be coded entirely by yourself. Don’t use existing template frameworks such as bootstrap or similar.~~
   - Each page should have a unique \<title> tag.
-  - Images should be contained within a directory called images.
+  - ~~Images should be contained within a directory called images.~~
   - Resize and optimize your images in Photoshop or any other similar image editing software so that resizing images with CSS or HTML is kept to a minimum and used appropriately.
-  - A free online editor is https://pixlr.com/ (Refer to chapter 9)
+    - ~~A free online editor is https://pixlr.com/ (Refer to chapter 9)~~
   - The navigation menu should have various CSS link states (Refer to chapter 4).
   - Correct usage of the HTML heading tags for page headings and subheadings (W3C reference).
   - Use CSS to style the headings to match the visual theme of your website (So that they don’t use the default heading style).
   - Put some text in italics (Refer to chapter 2).
-  - Put some text in bold (Refer to chapter 2).
+  - ~~Put some text in bold (Refer to chapter 2).~~
   - Create an unordered/ordered list using HTML (W3C reference).
+    - Skills/languages/tools
   - Style the bullet points of the unordered list using CSS (Refer to chapter 8).
   - Use a combination of both HTML images, and CSS background images.
   - Use ALT tags for all HTML images (W3C Reference).
@@ -75,16 +76,16 @@ Content is original but contains no typos. Student has made a real effort to wri
     - \<footer>
   - Demonstrate your understanding of the CSS float property (W3C Reference / Youtube tutorial)
   - Demonstrate your understanding of the box model by using margin, padding, and borders (Youtube tutorial)
-  - Demonstrate your understanding of classes (Refer to chapter 5 / Youtube tutorial).
+  - ~~Demonstrate your understanding of classes (Refer to chapter 5 / Youtube tutorial).~~
   - Use the box-shadow property on at least 1 element (Refer to chapter 8).
   - Use the border-radius property on at least 1 element (Refer to chapter 8).
   - Incorporate a clickable thumbnail gallery (Refer to chapter 9).
-  - Any borrowed content or code should be visibly referenced using a separate references page (which will not count towards the mandatory minimum four pages).
-  - Table based design is not permitted. Only use HTML tables to display tabular data (If needed).
-  - Ensure the website contains no broken links.
-  - Give consideration to your choice of colours. If in doubt, try using the adobe color wheel to identify colours that match.
-  - Give consideration to the usability of the website. Can the user easily navigate the website?
-  - Content: Is it all original (or correctly referenced borrowed content); is it polished and appropriate to the chosen topic?
+  - ~~Any borrowed content or code should be visibly referenced using a separate references page (which will not count towards the mandatory minimum four pages).~~
+  - ~~Table based design is not permitted. Only use HTML tables to display tabular data (If needed).~~
+  - ~~Ensure the website contains no broken links.~~
+  - ~~Give consideration to your choice of colours. If in doubt, try using the adobe color wheel to identify colours that match.~~
+  - ~~Give consideration to the usability of the website. Can the user easily navigate the website?~~
+  - ~~Content: Is it all original (or correctly referenced borrowed content); is it polished and appropriate to the chosen topic?~~
   - Validate your code for any errors.
-  - Demonstrate the points above in a meaningful way that suits the website's functionality, theme, and purpose.
-  - Have you pushed yourself? Think about creative ways you can use what you know to demonstrate a good understanding of HTML and CSS.
+  - ~~Demonstrate the points above in a meaningful way that suits the website's functionality, theme, and purpose.~~
+  - ~~Have you pushed yourself? Think about creative ways you can use what you know to demonstrate a good understanding of HTML and CSS.~~
