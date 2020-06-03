@@ -77,10 +77,10 @@ header{
 /* Page content */
 
 .button{
-  
+  margin-top: 300px;
   display: flex;
   flex-direction: column;
-  /*align-self: center;*/
+  align-self: flex-start;
   justify-content: center;
 }
 .button img{
