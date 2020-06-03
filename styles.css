@@ -18,22 +18,29 @@
   --header-height: 120px;
   --header-button-width: 200px;
 }
-
+html{
+  min-height: 100%;
+}
 body{
   margin: 0;
   font-family: 'Josefin Slab', serif;
   background-color: var(--bg-color);
   color: var(--standard-text);
+  min-height: 100vh;
 }
 
 /* Header */
-
+header{
+  padding: 0;
+}
 .container{
+  padding-bottom: 0;
+  padding-left: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   background-color: var(--header-color);
-  margin-top: 0;
+  margin: 0;
   list-style: none;
   font-size: var(--header-text-size);
 }
@@ -53,25 +60,27 @@ body{
   text-align: center;
   line-height: var(--header-height);
 }
+.item a:hover{
+  background-color: var(--codeblock-color);
+}
 .title{
   margin-right: auto;
-  justify-self: flex-start;
-  width:auto;
-  height: auto;
 }
 .title a{
   text-decoration: none;
   height: var(--header-height);
-  text-align: left;
+  text-align: center;
   color: var(--orange);
   width: calc(var(--header-button-width) * 2);
 }
 
 /* Page content */
+
 .button{
+  
   display: flex;
   flex-direction: column;
-  align-self: center;
+  /*align-self: center;*/
   justify-content: center;
 }
 .button img{
@@ -98,13 +107,17 @@ body{
   background-color: var(--header-color);
   box-shadow: none;
 }
+
+
+
 section{
-  min-height: 600px;
   display: flex;
   flex-direction: row column-reverse;
   justify-content: space-evenly;
+  min-height: calc(100vh - 120px);
 }
 .codeblock{
+  flex-direction: column;
   background-color: var(--codeblock-color);
   font-size: var(--body-text-size);
   margin: 50px 50px;
@@ -112,15 +125,38 @@ section{
   width: 50vw;
   border-radius: 5px;
 }
-audio{
-  display: block;
-  position: relative;
-  left: 50%;
+audio{  
+  margin-top: 20px;
+}
+.embed{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+
+/* contacts */
+.contacts a{
+  color: var(--purple);
+  text-decoration: none;
+}
+.email{
+  list-style-image: url("images/email.png");
+}
+.linkedin{
+  list-style-image: url("images/linkedin.png");
+}
+.github{
+  list-style-image: url("images/github.png");
+}
+.itch{
+  list-style-image: url("images/itch.png");
 }
 
 
 /* colour spans */
 .orange{
+  display: inline;
   color: var(--orange);
 }
 .yellow{

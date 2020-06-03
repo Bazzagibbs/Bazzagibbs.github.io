@@ -57,9 +57,9 @@ Content is original but contains no typos. Student has made a real effort to wri
   - ~~Your files should be coded entirely by yourself. Don’t use existing template frameworks such as bootstrap or similar.~~
   - Each page should have a unique \<title> tag.
   - ~~Images should be contained within a directory called images.~~
-  - Resize and optimize your images in Photoshop or any other similar image editing software so that resizing images with CSS or HTML is kept to a minimum and used appropriately.
+  - ~~Resize and optimize your images in Photoshop or any other similar image editing software so that resizing images with CSS or HTML is kept to a minimum and used appropriately.~~
     - ~~A free online editor is https://pixlr.com/ (Refer to chapter 9)~~
-  - The navigation menu should have various CSS link states (Refer to chapter 4).
+  - ~~The navigation menu should have various CSS link states (Refer to chapter 4).~~
   - ~~Correct usage of the HTML heading tags for page headings and subheadings (W3C reference).~~
   - ~~Use CSS to style the headings to match the visual theme of your website (So that they don’t use the default heading style).~~
   - Put some text in italics (Refer to chapter 2).
