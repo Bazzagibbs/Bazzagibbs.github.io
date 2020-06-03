@@ -60,8 +60,8 @@ Content is original but contains no typos. Student has made a real effort to wri
   - Resize and optimize your images in Photoshop or any other similar image editing software so that resizing images with CSS or HTML is kept to a minimum and used appropriately.
     - ~~A free online editor is https://pixlr.com/ (Refer to chapter 9)~~
   - The navigation menu should have various CSS link states (Refer to chapter 4).
-  - Correct usage of the HTML heading tags for page headings and subheadings (W3C reference).
-  - Use CSS to style the headings to match the visual theme of your website (So that they don’t use the default heading style).
+  - ~~Correct usage of the HTML heading tags for page headings and subheadings (W3C reference).~~
+  - ~~Use CSS to style the headings to match the visual theme of your website (So that they don’t use the default heading style).~~
   - Put some text in italics (Refer to chapter 2).
   - ~~Put some text in bold (Refer to chapter 2).~~
   - Create an unordered/ordered list using HTML (W3C reference).
@@ -77,8 +77,8 @@ Content is original but contains no typos. Student has made a real effort to wri
   - Demonstrate your understanding of the CSS float property (W3C Reference / Youtube tutorial)
   - Demonstrate your understanding of the box model by using margin, padding, and borders (Youtube tutorial)
   - ~~Demonstrate your understanding of classes (Refer to chapter 5 / Youtube tutorial).~~
-  - Use the box-shadow property on at least 1 element (Refer to chapter 8).
-  - Use the border-radius property on at least 1 element (Refer to chapter 8).
+  - ~~Use the box-shadow property on at least 1 element (Refer to chapter 8).~~
+  - ~~Use the border-radius property on at least 1 element (Refer to chapter 8).~~
   - Incorporate a clickable thumbnail gallery (Refer to chapter 9).
   - ~~Any borrowed content or code should be visibly referenced using a separate references page (which will not count towards the mandatory minimum four pages).~~
   - ~~Table based design is not permitted. Only use HTML tables to display tabular data (If needed).~~
