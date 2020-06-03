@@ -128,18 +128,35 @@ section{
 audio{  
   margin-top: 20px;
 }
-.embed{
-  width: 200px;
-  height: 200px;
-  background-color: black;
+.gamelink{
+  display: flex;
+  flex-direction: row;
+  
+}
+.description{
+  display: block;
+  margin-left: 40px;
+  
+}
+
+.game{
+  flex-direction: column;
+  background-color: var(--codeblock-color);
+  font-size: var(--body-text-size);
+  margin: 50px 50px;
+  padding: 30px 30px;
+  width: auto;
+  border-radius: 5px;
 }
 
 
 /* contacts */
-.contacts a{
+.contacts, .contacts a{
   color: var(--purple);
   text-decoration: none;
+  
 }
+
 .email{
   list-style-image: url("images/email.png");
 }
