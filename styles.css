@@ -75,6 +75,9 @@ header{
 }
 
 /* Page content */
+.hyperlink{
+  color: var(--purple);
+}
 
 .button{
   margin-top: 300px;
