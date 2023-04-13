@@ -1,193 +1,69 @@
-:root{
-  /* colour aliases */
-  --header-color: #313335;
-  --codeblock-color: #2b2b2b;
-  --bg-color: #3c3f41;
-  --orange: #c57825;
-  --blue: #7ca8c6;
-  --purple: #9676ac;
-  --yellow: #b9a549;
-  --green: #4a8a38;
-  --standard-text: #afb1b3;
-
-  /* font sizes */
-  --body-text-size: 35px;
-  --header-text-size: 50px;
-
-  /* measurements */
-  --header-height: 120px;
-  --header-button-width: 200px;
-}
-html{
-  min-height: 100%;
-}
-body{
-  margin: 0;
-  font-family: 'Josefin Slab', serif;
-  background-color: var(--bg-color);
-  color: var(--standard-text);
-  min-height: 100vh;
+:root {
+    --main-bg-color: #373953;
+    --main-text-color: #f4f1de;
+    --main-text-color-alt: #8c8a90;
+    --main-hyperlink-color: #e07a5f;
 }
 
-/* Header */
-header{
-  padding: 0;
-}
-.container{
-  padding-bottom: 0;
-  padding-left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: var(--header-color);
-  margin: 0;
-  list-style: none;
-  font-size: var(--header-text-size);
+html {
+    height: 100%;
+    margin: 0;
 }
 
-.item{
-  display: flex;
-  height: auto;
-  align-content: flex-end;
-  text-align: center;
-}
-.item a{
-  display: inline-block;
-  text-decoration: none;
-  color: var(--standard-text);
-  height: var(--header-height);
-  width: var(--header-button-width);
-  text-align: center;
-  line-height: var(--header-height);
-}
-.item a:hover{
-  background-color: var(--codeblock-color);
-}
-.title{
-  margin-right: auto;
-}
-.title a{
-  text-decoration: none;
-  height: var(--header-height);
-  text-align: center;
-  color: var(--orange);
-  width: calc(var(--header-button-width) * 2);
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("img/mountains.png");
+    background-color: var(--main-bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--main-text-color);
 }
 
-/* Page content */
-.hyperlink{
-  color: var(--purple);
+div {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
 }
 
-.button{
-  margin-top: 300px;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  justify-content: center;
-}
-.button img{
-  align-self: center;
-  width: 128px;
-  height: 128px;
-}
-.button a{
-  transition: 0.18s;
-  color: var(--purple);
-  font-size: var(--body-text-size);
-  text-decoration: none;
-  text-align: center;
-  line-height: 60px;
-  display: inline-block;
-  background-color: var(--codeblock-color);
-  height: 60px;
-  width: var(--header-button-width);
-  border-radius: 100px; /* make sides semicircles */
-  box-shadow: 1px 1px 2px #000000;
-}
-.button a:hover{
-  transition: 0.18s;
-  background-color: var(--header-color);
-  box-shadow: none;
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /*gap: 10px;*/
 }
 
-
-
-section{
-  display: flex;
-  flex-direction: row column-reverse;
-  justify-content: space-evenly;
-  min-height: calc(100vh - 120px);
-}
-.codeblock{
-  flex-direction: column;
-  background-color: var(--codeblock-color);
-  font-size: var(--body-text-size);
-  margin: 50px 50px;
-  padding: 30px 30px;
-  width: 50vw;
-  border-radius: 5px;
-}
-audio{  
-  margin-top: 20px;
-}
-.gamelink{
-  display: flex;
-  flex-direction: row;
-  
-}
-.description{
-  display: block;
-  margin-left: 40px;
-  
+h1 {
+    margin: 0;
+    font-size: 3em;
+    /*background-color: cornflowerblue;*/
 }
 
-.game{
-  flex-direction: column;
-  background-color: var(--codeblock-color);
-  font-size: var(--body-text-size);
-  margin: 50px 50px;
-  padding: 30px 30px;
-  width: auto;
-  border-radius: 5px;
+h2 {
+    margin: 0;
+    /*font-size: 1.5em;*/
+    /*background-color: cornflowerblue;*/
 }
 
-
-/* contacts */
-.contacts, .contacts a{
-  color: var(--purple);
-  text-decoration: none;
-  
+.content {
+    margin: 30px;
+    color: var(--main-text-color-alt);
+    /*background-color: cornflowerblue;*/
 }
 
-.email{
-  list-style-image: url("images/email.png");
-}
-.linkedin{
-  list-style-image: url("images/linkedin.png");
-}
-.github{
-  list-style-image: url("images/github.png");
-}
-.itch{
-  list-style-image: url("images/itch.png");
+.links-container {
+
+    display: flex;
+
+    justify-content: center;
+    gap: 15px;
 }
 
+a {
+    color: var(--main-hyperlink-color);
+    /*background-color: cornflowerblue;*/
 
-/* colour spans */
-.orange{
-  display: inline;
-  color: var(--orange);
-}
-.yellow{
-  color: var(--yellow);
-}
-.blue{
-  color: var(--blue);
-}
-
-
-/* clearfix */
-.clearfix{
-  clear: both;
 }
