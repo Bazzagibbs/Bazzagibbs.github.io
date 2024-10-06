@@ -1,0 +1,44 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+
+//$google_font_name: 'Lato';
+
+$primary: #323246;
+$secondary: #3b3c53;
+$tertiary: #58586d;
+$light: #f6f4ea;
+$dark: #373953;
+
+// These should be changed if I end up using info boxes
+$success-bg: $secondary;
+$info-bg: $secondary;
+$warning-bg: $secondary;
+$danger-bg: $secondary;
+$primary-bg-subtle: $tertiary;
+
+$body-bg: $primary;
+$body-color: $light;
+$text-color: $light;
+$body-tertiary-color: $tertiary;
+$body-tertiary-bg: $secondary;
+$headings-color: $light;
+$tooltip-background: $tertiary;
+
+
+//$link-color: #e07a5f; // orange
+$link-color: #cee2ff;
+//$link-color: #bfb5a2;
+//$link-color: #e8d2ad;
+$border-color: $tertiary;
+$navbar-light-brand-color: $light;
+$navbar-light-active-color: $light;
+//$navbar-light-color: $tertiary;
+//$navbar-light-
+$navbar-dark-brand-color: $light;
+$navbar-dark-active-color: $light;
+//$navbar-dark-color: $tertiary;
+//$navbar-color: #f4f1de !important;
+
