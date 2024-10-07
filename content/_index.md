@@ -18,7 +18,7 @@ Where I keep track of my development process and design decisions.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-solid fa-images" title="Portfolio" url="portfolio"%}}
-Where I keep track of my development process and design decisions.
+A gallery of games that I've worked on.
 {{% /blocks/feature %}}
 <!--
 {{% blocks/feature icon="fa-solid fa-database" title="Galileo" url="docs/galileo"%}}
