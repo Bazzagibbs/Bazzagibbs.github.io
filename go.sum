@@ -1,5 +1,9 @@
 github.com/FortAwesome/Font-Awesome v0.0.0-20230327165841-0698449d50f2/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/FortAwesome/Font-Awesome v0.0.0-20240402185447-c0f460dca7f7/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/FortAwesome/Font-Awesome v0.0.0-20240716171331-37eff7fa00de h1:JvHOfdSqvArF+7cffH9oWU8oLhn6YFYI60Pms8M/6tI=
+github.com/FortAwesome/Font-Awesome v0.0.0-20240716171331-37eff7fa00de/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/bazzas-forks/hugo-shortcode-gallery v0.0.0-20241007051209-cc72a8f6e3fb h1:Qawhl+y19IAA98YgcPd5tWu1hsxS9dsYQhluQ8MAv/8=
+github.com/bazzas-forks/hugo-shortcode-gallery v0.0.0-20241007051209-cc72a8f6e3fb/go.mod h1:N/R73xL3d8raXq+V6qNtQyr1hj5TR0S5+DpNr7n2uoY=
 github.com/google/docsy v0.10.0 h1:6tMDacPwAyRWNCfvsn/9qGOZDQ8b0aRzjRZvnZPY5dg=
 github.com/google/docsy v0.10.0/go.mod h1:c0nIAqmRTOuJ01F85U/wJPQtc3Zj9N58Kea9bOT2AJc=
 github.com/google/docsy v0.10.1-0.20240516225026-36746913371a h1:Fmx4SmmyWZf4q3rq9jhVWr6/h2MKEi4+61irjQO2ylI=
@@ -8,7 +12,10 @@ github.com/google/docsy v0.10.1-0.20240528200232-6549143cf323 h1:T4UiGpcrIgiuyQj
 github.com/google/docsy v0.10.1-0.20240528200232-6549143cf323/go.mod h1:c0nIAqmRTOuJ01F85U/wJPQtc3Zj9N58Kea9bOT2AJc=
 github.com/google/docsy v0.10.1-0.20240529105443-333c2f8d4172 h1:1gAAuOfHRok/hJqfF+wpjOYqlH0d76dwUsskLEnOzxo=
 github.com/google/docsy v0.10.1-0.20240529105443-333c2f8d4172/go.mod h1:c0nIAqmRTOuJ01F85U/wJPQtc3Zj9N58Kea9bOT2AJc=
+github.com/google/docsy v0.10.1-0.20241001224827-d1fd54078e99 h1:fTkX0tLR5peyC6At0xMwikXeP0+Lh8epUAH2n7S3vCg=
+github.com/google/docsy v0.10.1-0.20241001224827-d1fd54078e99/go.mod h1:hGGW0OjNuG5ZbH5JRtALY3yvN8ybbEP/v2iaK4bwOUI=
 github.com/google/docsy/dependencies v0.7.2 h1:+t5ufoADQAj4XneFphz4A+UU0ICAxmNaRHVWtMYXPSI=
 github.com/google/docsy/dependencies v0.7.2/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
 github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

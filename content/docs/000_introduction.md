@@ -1,8 +1,6 @@
 ---
 title: Introduction
-linkTitle: Introduction
 weight: 1
-type: docs
 ---
 
 ## Document Conventions

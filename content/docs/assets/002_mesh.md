@@ -1,15 +1,16 @@
 ---
-title: Mesh asset
-linkTitle: Mesh
-type: "docs"
+title: Mesh
 description: A primitive asset for storing vertex data.
-weight: 1
+weight: 2
 ---
 
 ## Mesh overview
 
 Mesh assets store an object's vertex data, and how the vertices are connected to form triangles.
 
+This page is currently being rewritten to support the new asset format.
+
+<!--
 ## Mesh body
 ```
 +------------------------+-------------------------+--------------------------+
@@ -159,4 +160,5 @@ For any attributes with multiple channels, all channels of the same attribute ty
 ### Reference implementation
 
 A reference implementation can be found in the [Callisto repository](https://github.com/Bazzagibbs/callisto/blob/master/asset/mesh.odin).
+-->
 

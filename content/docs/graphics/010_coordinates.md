@@ -1,10 +1,7 @@
 ---
-title: Coordinates
-linkTitle: Coordinates
+title: Coordinates for rendering
 weight: 10
-type: docs
-simple_list: true
-description: The coordinate system used in the world and for rendering.
+description: Transforming coordinates from world space to other spaces.
 ---
 
 ## World coordinates
