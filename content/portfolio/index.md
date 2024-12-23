@@ -4,7 +4,7 @@ description: Bailey Gibbons portfolio
 ---
 
 {{% blocks/section color="secondary" type="row" %}}
-## Which Way Up: Galaxy Games (2025) - Turtle Flip Studio
+## [Which Way Up: Galaxy Games (2025) - Turtle Flip Studio]()
 [Steam](https://store.steampowered.com/app/2318660/Which_Way_Up_Galaxy_Games/), Nintendo Switch
 
 #### Generalist programmer
