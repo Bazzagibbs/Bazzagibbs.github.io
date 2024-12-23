@@ -3,7 +3,7 @@ title: BazzaGibbs
 ---
 
 {{< blocks/cover title="Hi! I'm Bailey." color="primary" image_anchor="top" height="min">}}
-<p class="lead mt-5">I'm an engine, graphics and gameplay programmer.</p>
+<p class="lead mt-5">I'm an engine programmer and technical artist.</p>
 {{< /blocks/cover >}}
 
 
