@@ -2,6 +2,7 @@
 title: Material
 weight: 201
 description: An aggregate asset to describe how meshes are rendered.
+draft: true
 ---
 
 WIP

@@ -23,7 +23,9 @@ Planned aggregates:
 
 ## File format
 
-This section is a work in progress. I plan to use [Concise Binary Object Representation (CBOR)](https://cbor.io/) for serialization, 
+This section is a work in progress. I may end up implementing a custom format that requires very little processing to deserialize.
+
+In the meantime, I'm using [Concise Binary Object Representation (CBOR)](https://cbor.io/) for serialization, 
 as it provides some desired attributes to the asset files:
 - Named fields to avoid data loss when struct definitions change
 - Small file size
@@ -32,7 +34,8 @@ as it provides some desired attributes to the asset files:
 
 ## File loading
 
-Inspiration from Timothy Cain's video, [Arcanum "dat" files](https://youtu.be/VYw4ln0jxUY), development builds use a raw OS file system, release builds use packed bundles.
+Inspiration from Timothy Cain's video, [Arcanum "dat" files](https://youtu.be/VYw4ln0jxUY), development builds use a raw OS file system, or "loose assets", 
+while release builds use packed bundles.
 - data locality on the disk
 - "seek" is much faster than "open"
 - avoid file descriptor limits

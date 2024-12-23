@@ -10,11 +10,11 @@ title: BazzaGibbs
 {{% blocks/section color="primary" type="row" %}}
 
 {{% blocks/feature icon="fa-solid fa-microchip" title="Callisto" url="docs" %}}
-A game engine written in [Odin](https://odin-lang.org), with Vulkan and (soon) WebGL renderers.
+A game engine written in [Odin](https://odin-lang.org) with a Vulkan renderer.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-solid fa-newspaper" title="Blog" url="blog"%}}
-Where I keep track of my development process and design decisions.
+Tech art studies and development logs.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-solid fa-images" title="Portfolio" url="portfolio"%}}

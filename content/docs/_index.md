@@ -13,4 +13,4 @@ When there is a stable release I will add documentation here.
 At the moment, the notes here are to record decisions that I have made.
 
 In the meantime, see the [Callisto GitHub repository](https://github.com/bazzagibbs/callisto) for a brief overview of how the engine is used, or 
-[Callisto-Sandbox](https://github.com/bazzas-personal-stuff/callisto-sandbox) for a sample implementation.
+[Callisto-Sandbox](https://github.com/bazzagibbs/callisto-sandbox) for a sample implementation.

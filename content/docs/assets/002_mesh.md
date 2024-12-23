@@ -2,6 +2,7 @@
 title: Mesh
 description: A primitive asset for storing vertex data.
 weight: 2
+draft: true
 ---
 
 ## Mesh overview
