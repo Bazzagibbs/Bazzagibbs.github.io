@@ -9,9 +9,9 @@ title: BazzaGibbs
 
 {{% blocks/section color="primary" type="row" %}}
 
-{{% blocks/feature icon="fa-solid fa-microchip" title="Callisto" url="docs" %}}
-A game engine written in [Odin](https://odin-lang.org).
-{{% /blocks/feature %}}
+<!-- {{% blocks/feature icon="fa-solid fa-microchip" title="Callisto" url="docs" %}} -->
+<!-- A game engine written in [Odin](https://odin-lang.org). -->
+<!-- {{% /blocks/feature %}} -->
 
 {{% blocks/feature icon="fa-solid fa-newspaper" title="Blog" url="blog"%}}
 Tech art, libraries and development logs.

@@ -65,9 +65,9 @@ outputs:
   
 menus:
   main:
-    - name: Callisto Engine
-      pageRef: /docs
-      weight: 10
+    # - name: Callisto Engine
+    #   pageRef: /docs
+    #   weight: 10
     - name: Blog
       pageRef: /blog
       weight: 30
