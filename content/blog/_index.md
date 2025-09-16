@@ -5,4 +5,3 @@ type: "blog"
 weight: 10
 ---
 
-Coming soon!

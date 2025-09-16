@@ -20,6 +20,10 @@ Tech art, libraries and development logs.
 {{% blocks/feature icon="fa-solid fa-images" title="Portfolio" url="portfolio"%}}
 A gallery of games that I've worked on.
 {{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-github" title="Github" url="https://github.com/bazzagibbs"%}}
+Source code for many of my projects and libraries.
+{{% /blocks/feature %}}
 <!--
 {{% blocks/feature icon="fa-solid fa-database" title="Galileo" url="docs/galileo"%}}
 An asset file storage system used in my game engines.
